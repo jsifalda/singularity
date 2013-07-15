@@ -1,7 +1,6 @@
-/*body {*/
-    /*margin: 0 auto;*/
-    /*width: 900px;*/
-/*}*/
+.large-line {
+    line-height: 50px;
+}
 
 .text-center {
     text-align: center;
