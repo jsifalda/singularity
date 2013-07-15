@@ -13,9 +13,8 @@
 .main-box {
     font-size: 25px;
     background: #1f8dd6;
-    margin: 85px;
+    margin: 85px 0;
     padding: 0.3em 1em;
-    border-radius: 3px;
     color: #fff;
 }
 
