@@ -1,6 +1,7 @@
 module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-cssmin');
+  grunt.loadNpmTasks('grunt-ftp-deploy');
 
   appScripts = [
     'www/bower_components/angular/angular.min.js',
@@ -38,6 +39,19 @@ module.exports = function(grunt) {
         files: {
           'www/build/core.css': cssminFiles
         }
+      }
+    },
+
+    'ftp-deploy': {
+      build: {
+        auth: {
+          host: '16533.w33.wedos.net',
+          port: 21,
+          authKey: 'key1'
+        },
+        src: 'www',
+        dest: '/domains/singularity.jsifalda.name',
+        exclusions: ['www/bower_components']
       }
     }
   });
