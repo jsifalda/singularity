@@ -1,6 +1,16 @@
-<div>
-    <p>{{ today | date:'d. MMMM, yyyy' }}</p>
-    <p>{{ remaining }}</p>
+<div class="pure-g text-center">
+    <div class="pure-u-1 main-box">
+        <p>{{ today | date:'d. MMMM, yyyy' }}</p>
+        <p>{{ remaining }}</p>
 
-    <p>Only <strong>{{ remainingMinutes }}</strong> minutes left!</p>
+        <p>Only <strong class="pure-button-minutes">{{ remainingMinutes }}</strong> minutes left!</p>
+        <p class="font-black"><strong>Work harder, mate!</strong></p>
+    </div>
+</div>
+
+<div class="pure-g text-center">
+    <div class="pure-u-1">
+
+        <p class="footer">&copy; <span class="uppercase">Singularity</span> by <a href="http://jsifalda.name/">Jiří Šifalda</a></p>
+    </div>
 </div>
