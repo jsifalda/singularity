@@ -1,4 +1,8 @@
 CACHE MANIFEST
+
+# Version 3
+
+CACHE:
 /build/app.js
 /build/core.css
 /views/main.html

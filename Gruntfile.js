@@ -6,6 +6,7 @@ module.exports = function(grunt) {
   appScripts = [
     'www/bower_components/angular/angular.min.js',
     'www/js/app.js',
+    'www/js/controllers/Html.js',
     'www/js/controllers/Countdown.js',
     'www/js/services/Remaining.js'
   ];
