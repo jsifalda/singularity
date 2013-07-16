@@ -1,7 +1,8 @@
 
 function CountdownCtrl ($scope, $timeout, $filter, Remaining) {
   var today = new Date();
-  var tomorrow = today.setDate(today.getDate() + 1);
+  var tomorrow = new Date();
+  tomorrow.setDate(today.getDate() + 1);
 
   $scope.remaining = '';
   $scope.remainingMinutes = 0;
