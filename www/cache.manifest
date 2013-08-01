@@ -1,8 +1,9 @@
 CACHE MANIFEST
 
-# Version 4
+# Version 5
 
 CACHE:
 /build/app.js
 /build/core.css
 /views/main.html
+http://www.google-analytics.com/analytics.js
